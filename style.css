@@ -20,10 +20,9 @@ h1 {
     position: relative;
 }
 
-.Half-width {}
-
 section {
     display: flex;
+    margin-bottom: 200px;
 }
 
 .half-width {
@@ -39,7 +38,18 @@ section {
     font-weight: 700;
 }
 
-#bckimg {
+.bckimg {
     background-image: url(top-banner.png);
     background-repeat: no-repeat;
+}
+
+.bckimg2 {
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.half--width {
+    width: 50%;
+    padding-right: 10%;
 }
